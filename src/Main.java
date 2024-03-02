@@ -22,7 +22,7 @@ public class Main {
         //Завдання 3:
         System.out.println("Завдання 3:");
         double number=34.3;
-        double roundedNumber=Math.round(number);
+        int roundedNumber=(int)(number+0.5);
         System.out.println(roundedNumber);
 
 
